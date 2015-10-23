@@ -114,4 +114,13 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(0, 0), North", explorer.getLocation());
 	}
+	
+	@Test
+	public void testExplorerGoesForwardsAndBackwards() {
+		PlanetExplorer explorer = new PlanetExplorer(3,3, "(1,0)");
+		
+		explorer.executeCommand("fb");
+		
+		assertEquals("(0, 0), North", explorer.getLocation());
+	}
 }
