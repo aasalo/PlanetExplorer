@@ -32,7 +32,7 @@ public class PlanetExplorer {
 		
 		if(command.isEmpty()) { return "(0, 0), North"; }
 		
-		for(int i = 0; i <= command.length(); i++){
+		for(int i = 0; i < command.length(); i++){
 		
 			if (command.charAt(i) == 'f'){
 			posX++;

@@ -44,3 +44,6 @@ UnitTestSessionAction 1445591451419 TestPlanetExplorer FAIL
 RefactoringAction 1445591500506 PlanetExplorer.java ADD void length() METHOD
 RefactoringAction 1445591502021 PlanetExplorer.java REMOVE length() METHOD
 EditAction 1445591586588 PlanetExplorer.java 1719 3 4 0
+UnitTestCaseAction 1445591586888 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445591586889 TestPlanetExplorer FAIL
+EditAction 1445591599494 PlanetExplorer.java 1718 3 4 0
