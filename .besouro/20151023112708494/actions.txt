@@ -177,3 +177,5 @@ RefactoringAction 1445596312593 TestPlanetExplorer.java ADD void testExplorerGoe
 RefactoringAction 1445596327662 TestPlanetExplorer.java RENAME testExplorerGoesAroundBackwardsTurningRight()/2=>void testExplorerGoesForwardTwiceAndComesBackFacingStillSouth() METHOD
 RefactoringAction 1445596342746 TestPlanetExplorer.java RENAME testExplorerGoesForwardTwiceAndComesBackFacingStillSouth()=>void testExplorerGoesForwardTwiceAndComesBackTurningRightAndFacingStillSouth() METHOD
 EditAction 1445596349334 TestPlanetExplorer.java 3776 15 45 15
+UnitTestCaseAction 1445596349663 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445596349664 TestPlanetExplorer OK
