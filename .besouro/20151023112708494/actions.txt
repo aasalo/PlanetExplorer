@@ -34,3 +34,8 @@ EditAction 1445591322816 PlanetExplorer.java 1566 2 3 0
 CompilationAction 1445591322922 TestPlanetExplorer.java
 RefactoringAction 1445591328501 PlanetExplorer.java ADD Object getLocation() METHOD
 EditAction 1445591375916 PlanetExplorer.java 1661 3 4 0
+UnitTestCaseAction 1445591376230 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445591376231 TestPlanetExplorer OK
+RefactoringAction 1445591395267 TestPlanetExplorer.java ADD void testExplorerMovesForwardOnce()/2 METHOD
+RefactoringAction 1445591399282 TestPlanetExplorer.java RENAME testExplorerMovesForwardOnce()/2=>void testExplorerMovesForwardTwice() METHOD
+EditAction 1445591451106 TestPlanetExplorer.java 893 3 9 3
