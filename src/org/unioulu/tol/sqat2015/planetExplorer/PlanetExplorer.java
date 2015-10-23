@@ -35,8 +35,11 @@ public class PlanetExplorer {
 		}
 		
 		for(int i = 0; i < command.length(); i++){
-
-			if (command.charAt(i) == 'f'){
+			
+			if (command.charAt(i) == 'f' && getFacing().equals("North")){
+				posY++;
+			}
+			else if (command.charAt(i) == 'f' && getFacing().equals("East")){
 				posX++;
 			}
 			else if(command.charAt(i) == 'r'){
@@ -53,6 +56,10 @@ public class PlanetExplorer {
 	public String getLocation() {
 		
 		return "(" + posX + ", " + posY + "), " + facing;
+	}
+	
+	public String getFacing(){
+		return facing;
 	}
 	
 	
