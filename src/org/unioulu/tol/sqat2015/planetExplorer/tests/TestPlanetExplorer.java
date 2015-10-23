@@ -29,7 +29,7 @@ public class TestPlanetExplorer {
 	public void testExplorerMovesForwardTwice() {
 		PlanetExplorer explorer = new PlanetExplorer(3,3, "(1,0)");
 		
-		explorer.executeCommand("f");
+		explorer.executeCommand("ff");
 		
 		assertEquals("(2, 0), North", explorer.getLocation());
 	}
