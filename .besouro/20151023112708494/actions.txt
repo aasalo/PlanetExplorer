@@ -161,3 +161,8 @@ EditAction 1445595704795 TestPlanetExplorer.java 3254 13 39 13
 UnitTestCaseAction 1445595705107 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445595705107 TestPlanetExplorer FAIL
 EditAction 1445595916251 PlanetExplorer.java 3038 4 5 0
+UnitTestCaseAction 1445595916563 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445595916563 TestPlanetExplorer OK
+RefactoringAction 1445595926994 TestPlanetExplorer.java ADD void testExplorerGoesForwardsAndBackwards()/2 METHOD
+RefactoringAction 1445595934517 TestPlanetExplorer.java RENAME testExplorerGoesForwardsAndBackwards()/2=>void testExplorerGoesAroundBackwards() METHOD
+EditAction 1445596105428 TestPlanetExplorer.java 3488 14 42 14
