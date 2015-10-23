@@ -36,7 +36,6 @@ public class PlanetExplorer {
 			posX++;
 		}
 		
-		
 		return "(" + posX + ", " + posY + "), " + facing;
 	}
 	
