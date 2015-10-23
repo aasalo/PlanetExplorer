@@ -43,6 +43,13 @@ public class PlanetExplorer {
 			else if (command.charAt(i) == 'f' && getFacing().equals("East")){
 				posX++;
 			}
+			else if (command.charAt(i) == 'f' && getFacing().equals("South")){
+				posY--;
+			}
+			else if (command.charAt(i) == 'f' && getFacing().equals("West")){
+				posX--;
+			}
+			
 			
 			
 			//Right turns
