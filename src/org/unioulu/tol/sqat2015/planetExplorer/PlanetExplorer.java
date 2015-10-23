@@ -35,9 +35,9 @@ public class PlanetExplorer {
 		}
 		
 		for(int i = 0; i < command.length(); i++){
-		
+
 			if (command.charAt(i) == 'f'){
-			posX++;
+				posX++;
 			}
 			else if(command.charAt(i) == 'r'){
 				facing = "East";
