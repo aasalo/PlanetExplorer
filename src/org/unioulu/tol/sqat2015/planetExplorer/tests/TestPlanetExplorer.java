@@ -61,5 +61,14 @@ public class TestPlanetExplorer {
 		assertEquals("(1, 1), East", explorer.getLocation());
 	}
 	
+	@Test
+	public void testExplorerTurnsRightLeftRight() {
+		PlanetExplorer explorer = new PlanetExplorer(3,3, "(1,0)");
+		
+		explorer.executeCommand("rlr");
+		
+		assertEquals("(0, 0), East", explorer.getLocation());
+	}
+	
 	
 }
