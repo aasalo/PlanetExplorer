@@ -89,3 +89,4 @@ RefactoringAction 1445593160491 TestPlanetExplorer.java ADD void testExplorerMov
 RefactoringAction 1445593164509 TestPlanetExplorer.java RENAME testExplorerMovesForwardOnceAndTurnsRightMovesForward()/2=>void testExplorerTurns() METHOD
 RefactoringAction 1445593168029 TestPlanetExplorer.java RENAME testExplorerTurns()=>void testExplorerTurnsRightLeftRight() METHOD
 EditAction 1445593185048 TestPlanetExplorer.java 1851 7 21 7
+EditAction 1445593185152 PlanetExplorer.java 2036 4 5 0
