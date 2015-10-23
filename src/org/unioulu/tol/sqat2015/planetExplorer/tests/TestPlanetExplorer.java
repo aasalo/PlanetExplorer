@@ -131,5 +131,15 @@ public class TestPlanetExplorer {
 		explorer.executeCommand("brbrbrbr");
 		
 		assertEquals("(0, 0), North", explorer.getLocation());
+	}	
+	
+	@Test
+	public void testExplorerGoesForwardTwiceAndComesBackTurningRightAndFacingStillSouth() {
+		PlanetExplorer explorer = new PlanetExplorer(3,3, "(1,0)");
+		
+		explorer.executeCommand("ffrrff");
+		
+		assertEquals("(0, 0), South", explorer.getLocation());
 	}
+	
 }

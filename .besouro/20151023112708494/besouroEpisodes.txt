@@ -95,3 +95,7 @@
 1445595916564 test-first 3 244 true
 1445596105836 test-first 4 178 true
 1445596105837 test-first 4 178 true
+1445596174312 refactoring 2B 14 true
+1445596174313 refactoring 3 14 true
+1445596174314 refactoring 1B 14 true
+1445596174315 regression 1 14 true
