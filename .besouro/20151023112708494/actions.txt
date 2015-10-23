@@ -50,3 +50,10 @@ EditAction 1445591599494 PlanetExplorer.java 1718 3 4 0
 UnitTestCaseAction 1445591599874 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445591599874 TestPlanetExplorer FAIL
 EditAction 1445591614170 TestPlanetExplorer.java 894 3 9 3
+UnitTestCaseAction 1445591614500 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445591614500 TestPlanetExplorer OK
+RefactoringAction 1445591627011 TestPlanetExplorer.java ADD void testExplorerMovesForwardTwice()/2 METHOD
+RefactoringAction 1445591651029 TestPlanetExplorer.java RENAME testExplorerMovesForwardTwice()/2=>void testExplorerMoves() METHOD
+RefactoringAction 1445591655546 TestPlanetExplorer.java RENAME testExplorerMoves()=>void testExplorerMovesForwardOnceAndTurns() METHOD
+RefactoringAction 1445591660561 TestPlanetExplorer.java RENAME testExplorerMovesForwardOnceAndTurns()=>void testExplorerMovesForwardOnceAndTurnsRight() METHOD
+EditAction 1445591679531 TestPlanetExplorer.java 1131 4 12 4
