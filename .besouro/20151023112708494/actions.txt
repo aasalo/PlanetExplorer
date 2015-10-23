@@ -130,3 +130,4 @@ RefactoringAction 1445593984567 TestPlanetExplorer.java ADD void testExplorerTur
 RefactoringAction 1445593987587 TestPlanetExplorer.java RENAME testExplorerTurnsRight4times()/2=>void testExplorerTurns4times() METHOD
 RefactoringAction 1445593991107 TestPlanetExplorer.java RENAME testExplorerTurns4times()=>void testExplorerTurnsLeft4times() METHOD
 EditAction 1445594154631 PlanetExplorer.java 2743 4 5 0
+EditAction 1445594159095 TestPlanetExplorer.java 2560 10 30 10
