@@ -22,6 +22,6 @@ public class TestPlanetExplorer {
 		
 		explorer.executeCommand("f");
 		
-		assertEquals("(1, 0), North", explorer.executeCommand("f"));
+		assertEquals("(1, 0), North", explorer.getLocation());
 	}
 }
