@@ -32,8 +32,11 @@ public class PlanetExplorer {
 		
 		if(command.isEmpty()) { return "(0, 0), North"; }
 		
-		if (command.charAt(0) == 'f'){
+		for(int i = 0; i <= command.length(); i++){
+		
+			if (command.charAt(i) == 'f'){
 			posX++;
+			}
 		}
 		
 		return "(" + posX + ", " + posY + "), " + facing;
