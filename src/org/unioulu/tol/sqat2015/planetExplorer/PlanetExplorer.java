@@ -38,6 +38,11 @@ public class PlanetExplorer {
 		
 		return "(" + posX + ", " + posY + "), " + facing;
 	}
+
+	public String getLocation() {
+		
+		return "(" + posX + ", " + posY + "), " + facing;
+	}
 	
 	
 }
