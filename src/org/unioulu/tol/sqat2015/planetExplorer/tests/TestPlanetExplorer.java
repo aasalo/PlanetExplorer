@@ -62,10 +62,10 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testExplorerMovesForwardTurnsLeftMovesForwardTurnsRight() {
+	public void testExplorerMovesForwardTurnsRightMovesForwardTurnsLeft() {
 		PlanetExplorer explorer = new PlanetExplorer(3,3, "(1,0)");
 		
-		explorer.executeCommand("flfr");
+		explorer.executeCommand("frfl");
 		
 		assertEquals("(1, 1), North", explorer.getLocation());
 	}
