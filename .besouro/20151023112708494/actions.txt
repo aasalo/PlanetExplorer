@@ -57,3 +57,6 @@ RefactoringAction 1445591651029 TestPlanetExplorer.java RENAME testExplorerMoves
 RefactoringAction 1445591655546 TestPlanetExplorer.java RENAME testExplorerMoves()=>void testExplorerMovesForwardOnceAndTurns() METHOD
 RefactoringAction 1445591660561 TestPlanetExplorer.java RENAME testExplorerMovesForwardOnceAndTurns()=>void testExplorerMovesForwardOnceAndTurnsRight() METHOD
 EditAction 1445591679531 TestPlanetExplorer.java 1131 4 12 4
+UnitTestCaseAction 1445591679832 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445591679833 TestPlanetExplorer FAIL
+EditAction 1445591881547 PlanetExplorer.java 1793 3 4 0

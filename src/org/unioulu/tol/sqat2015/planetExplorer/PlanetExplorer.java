@@ -30,12 +30,17 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		if(command.isEmpty()) { return "(0, 0), North"; }
+		if(command.isEmpty()) { 
+			return "(0, 0), North";
+		}
 		
 		for(int i = 0; i < command.length(); i++){
 		
 			if (command.charAt(i) == 'f'){
 			posX++;
+			}
+			else if(command.charAt(i) == 'r'){
+				facing = "East";
 			}
 		}
 		
