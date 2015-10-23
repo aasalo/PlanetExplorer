@@ -42,6 +42,9 @@ public class PlanetExplorer {
 			else if(command.charAt(i) == 'r'){
 				facing = "East";
 			}
+			else if(command.charAt(i) == 'l'){
+				facing = "West";
+			}
 		}
 		
 		return "(" + posX + ", " + posY + "), " + facing;
