@@ -144,3 +144,6 @@ RefactoringAction 1445595095831 TestPlanetExplorer.java RENAME testExplorerGoesA
 RefactoringAction 1445595305968 TestPlanetExplorer.java RENAME testExplorerGoesAroundUsingRight()=>void testExplorerGoesAroundTurningRight() METHOD
 EditAction 1445595306106 TestPlanetExplorer.java 2785 11 33 11
 EditAction 1445595313367 PlanetExplorer.java 2937 4 5 0
+UnitTestCaseAction 1445595313713 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445595313714 TestPlanetExplorer.testExplorerGoesAroundTurningRight OK
+EditAction 1445595349913 PlanetExplorer.java 2953 4 5 0
