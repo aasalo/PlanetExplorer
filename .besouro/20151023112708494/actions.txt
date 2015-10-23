@@ -124,3 +124,9 @@ EditAction 1445593863433 PlanetExplorer.java 2490 4 5 0
 UnitTestCaseAction 1445593863760 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445593863761 TestPlanetExplorer FAIL
 EditAction 1445593971532 TestPlanetExplorer.java 2328 9 27 9
+UnitTestCaseAction 1445593972608 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445593972609 TestPlanetExplorer OK
+RefactoringAction 1445593984567 TestPlanetExplorer.java ADD void testExplorerTurnsRight4times()/2 METHOD
+RefactoringAction 1445593987587 TestPlanetExplorer.java RENAME testExplorerTurnsRight4times()/2=>void testExplorerTurns4times() METHOD
+RefactoringAction 1445593991107 TestPlanetExplorer.java RENAME testExplorerTurns4times()=>void testExplorerTurnsLeft4times() METHOD
+EditAction 1445594154631 PlanetExplorer.java 2743 4 5 0

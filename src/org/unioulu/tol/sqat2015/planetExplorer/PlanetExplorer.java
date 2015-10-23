@@ -36,12 +36,14 @@ public class PlanetExplorer {
 		
 		for(int i = 0; i < command.length(); i++){
 			
+			//Forward actions
 			if (command.charAt(i) == 'f' && getFacing().equals("North")){
 				posY++;
 			}
 			else if (command.charAt(i) == 'f' && getFacing().equals("East")){
 				posX++;
 			}
+			//Right turns
 			else if(command.charAt(i) == 'r' && getFacing().equals("North")){
 				facing = "East";
 			}
@@ -54,8 +56,15 @@ public class PlanetExplorer {
 			else if(command.charAt(i) == 'r' && getFacing().equals("West")){
 				facing = "North";
 			}
+			//Left turns
 			else if(command.charAt(i) == 'l' && getFacing().equals("North")){
 				facing = "West";
+			}
+			else if(command.charAt(i) == 'l' && getFacing().equals("West")){
+				facing = "South";
+			}
+			else if(command.charAt(i) == 'l' && getFacing().equals("South")){
+				facing = "East";
 			}
 			else if(command.charAt(i) == 'l' && getFacing().equals("East")){
 				facing = "North";
