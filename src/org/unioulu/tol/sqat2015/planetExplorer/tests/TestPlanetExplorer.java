@@ -97,7 +97,12 @@ public class TestPlanetExplorer {
 		assertEquals("(0, 0), North", explorer.getLocation());
 	}
 	
-	
-	
-	
+	@Test
+	public void testExplorerGoesAround() {
+		PlanetExplorer explorer = new PlanetExplorer(3,3, "(1,0)");
+		
+		explorer.executeCommand("frfrfrfr");
+		
+		assertEquals("(0, 0), North", explorer.getLocation());
+	}
 }
