@@ -53,6 +53,15 @@ public class PlanetExplorer {
 			if (command.charAt(i) == 'b' && getFacing().equals("North")){
 				posY--;
 			}
+			if (command.charAt(i) == 'b' && getFacing().equals("West")){
+				posX++;
+			}
+			if (command.charAt(i) == 'b' && getFacing().equals("South")){
+				posY++;
+			}
+			if (command.charAt(i) == 'b' && getFacing().equals("East")){
+				posX--;
+			}
 			
 			//Right turns
 			else if(command.charAt(i) == 'r' && getFacing().equals("North")){
