@@ -21,3 +21,6 @@ UnitTestSessionAction 1445590634474 TestPlanetExplorer OK
 RefactoringAction 1445590643490 TestPlanetExplorer.java ADD void testExplorerDoesntMove()/2 METHOD
 RefactoringAction 1445590652503 TestPlanetExplorer.java RENAME testExplorerDoesntMove()/2=>void testExplorerMovesForwardOnce() METHOD
 EditAction 1445590661484 TestPlanetExplorer.java 674 2 6 2
+UnitTestCaseAction 1445590675380 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445590675380 TestPlanetExplorer FAIL
+EditAction 1445591176863 PlanetExplorer.java 1511 2 2 0
