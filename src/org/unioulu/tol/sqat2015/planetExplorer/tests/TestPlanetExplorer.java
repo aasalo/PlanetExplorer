@@ -125,10 +125,10 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testExplorerGoesAroundBackwards() {
+	public void testExplorerGoesAroundBackwardsTurningRight() {
 		PlanetExplorer explorer = new PlanetExplorer(3,3, "(1,0)");
 		
-		explorer.executeCommand("fbfbfbfb");
+		explorer.executeCommand("brbrbrbr");
 		
 		assertEquals("(0, 0), North", explorer.getLocation());
 	}
