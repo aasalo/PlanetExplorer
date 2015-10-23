@@ -50,6 +50,9 @@ public class PlanetExplorer {
 				posX--;
 			}
 			//Backward actions			
+			if (command.charAt(i) == 'b' && getFacing().equals("North")){
+				posY--;
+			}
 			
 			//Right turns
 			else if(command.charAt(i) == 'r' && getFacing().equals("North")){

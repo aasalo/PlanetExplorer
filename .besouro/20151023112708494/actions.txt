@@ -158,3 +158,6 @@ RefactoringAction 1445595679808 TestPlanetExplorer.java RENAME testExplorerGoesB
 RefactoringAction 1445595685330 TestPlanetExplorer.java RENAME testExplorerGoes()=>void testExplorerGoesForward() METHOD
 RefactoringAction 1445595689852 TestPlanetExplorer.java RENAME testExplorerGoesForward()=>void testExplorerGoesForwardsAndBackwards() METHOD
 EditAction 1445595704795 TestPlanetExplorer.java 3254 13 39 13
+UnitTestCaseAction 1445595705107 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445595705107 TestPlanetExplorer FAIL
+EditAction 1445595916251 PlanetExplorer.java 3038 4 5 0
