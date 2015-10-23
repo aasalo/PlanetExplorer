@@ -8,11 +8,11 @@ import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer;
 public class TestPlanetExplorer {
 
 	@Test
-	public void testPExplorerMovesForwardOnce() {
-		PlanetExplorer explorer = new PlanetExplorer(3,3, "(1,0");
+	public void testExplorerDoesntMove() {
+		PlanetExplorer explorer = new PlanetExplorer(3,3, "(1,0)");
 		
-		explorer.executeCommand("f");
+		explorer.executeCommand("");
 		
-		assertEquals("(0, 1), North", explorer.executeCommand("f"));
+		assertEquals("(0, 0), North", explorer.executeCommand(""));
 	}
 }

@@ -7,3 +7,11 @@ RefactoringAction 1445589811453 TestPlanetExplorer.java RENAME testP()=>void tes
 RefactoringAction 1445590173433 TestPlanetExplorer.java RENAME testPExplorer()=>void testPExplorerMovesForwardOnce() METHOD
 EditAction 1445590339279 TestPlanetExplorer.java 452 1 3 1
 EditAction 1445590339625 PlanetExplorer.java 1352 2 1 0
+UnitTestCaseAction 1445590340224 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445590340226 TestPlanetExplorer FAIL
+RefactoringAction 1445590425070 PlanetExplorer.java ADD int posX FIELD
+RefactoringAction 1445590425071 PlanetExplorer.java ADD int posY FIELD
+RefactoringAction 1445590454617 PlanetExplorer.java ADD string facing FIELD
+RefactoringAction 1445590499647 TestPlanetExplorer.java RENAME testPExplorerMovesForwardOnce()=>void testPExplorerDoesntMove() METHOD
+RefactoringAction 1445590503660 TestPlanetExplorer.java RENAME testPExplorerDoesntMove()=>void testExplorerDoesntMove() METHOD
+EditAction 1445590634068 TestPlanetExplorer.java 444 1 3 1
