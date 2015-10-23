@@ -67,7 +67,7 @@ public class TestPlanetExplorer {
 		
 		explorer.executeCommand("flfr");
 		
-		assertEquals("(0, 0), North", explorer.getLocation());
+		assertEquals("(1, 1), North", explorer.getLocation());
 	}
 	
 	
