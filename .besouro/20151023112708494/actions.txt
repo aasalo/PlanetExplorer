@@ -82,3 +82,4 @@ RefactoringAction 1445592232403 PlanetExplorer.java RENAME setFacing(String)=>vo
 RefactoringAction 1445592524199 PlanetExplorer.java RENAME setFacing(int)=>void setFacing() METHOD
 RefactoringAction 1445592547765 PlanetExplorer.java REMOVE setFacing() METHOD
 EditAction 1445592926988 PlanetExplorer.java 2036 4 5 0
+EditAction 1445592928961 TestPlanetExplorer.java 1623 6 18 6

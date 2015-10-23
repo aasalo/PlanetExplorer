@@ -22,7 +22,7 @@ public class TestPlanetExplorer {
 		
 		explorer.executeCommand("f");
 		
-		assertEquals("(1, 0), North", explorer.getLocation());
+		assertEquals("(0, 1), North", explorer.getLocation());
 	}
 	
 	@Test
@@ -31,7 +31,7 @@ public class TestPlanetExplorer {
 		
 		explorer.executeCommand("ff");
 		
-		assertEquals("(2, 0), North", explorer.getLocation());
+		assertEquals("(0, 2), North", explorer.getLocation());
 	}
 	
 	@Test
@@ -40,7 +40,7 @@ public class TestPlanetExplorer {
 		
 		explorer.executeCommand("fr");
 		
-		assertEquals("(1, 0), East", explorer.getLocation());
+		assertEquals("(0, 1), East", explorer.getLocation());
 	}
 	
 	@Test
@@ -49,7 +49,7 @@ public class TestPlanetExplorer {
 		
 		explorer.executeCommand("fl");
 		
-		assertEquals("(1, 0), West", explorer.getLocation());
+		assertEquals("(0, 1), West", explorer.getLocation());
 	}
 	
 	@Test
