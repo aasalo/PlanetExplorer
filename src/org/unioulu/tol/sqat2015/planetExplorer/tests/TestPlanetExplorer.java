@@ -85,7 +85,7 @@ public class TestPlanetExplorer {
 		
 		explorer.executeCommand("rrrr");
 		
-		assertEquals("(0, 0), South", explorer.getLocation());
+		assertEquals("(0, 0), North", explorer.getLocation());
 	}
 	
 	
