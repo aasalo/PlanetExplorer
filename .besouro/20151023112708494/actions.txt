@@ -90,3 +90,10 @@ RefactoringAction 1445593164509 TestPlanetExplorer.java RENAME testExplorerMoves
 RefactoringAction 1445593168029 TestPlanetExplorer.java RENAME testExplorerTurns()=>void testExplorerTurnsRightLeftRight() METHOD
 EditAction 1445593185048 TestPlanetExplorer.java 1851 7 21 7
 EditAction 1445593185152 PlanetExplorer.java 2036 4 5 0
+UnitTestCaseAction 1445593185478 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445593185478 TestPlanetExplorer OK
+RefactoringAction 1445593275819 TestPlanetExplorer.java RENAME testExplorerTurnsRightLeftRight()=>void testExplorerMovesForwardTurns() METHOD
+RefactoringAction 1445593277336 TestPlanetExplorer.java RENAME testExplorerMovesForwardTurns()=>void testExplorerMovesForwardTurnsLef() METHOD
+RefactoringAction 1445593281357 TestPlanetExplorer.java RENAME testExplorerMovesForwardTurnsLef()=>void testExplorerMovesForwardTurnsLeftMovesForward() METHOD
+RefactoringAction 1445593284378 TestPlanetExplorer.java RENAME testExplorerMovesForwardTurnsLeftMovesForward()=>void testExplorerMovesForwardTurnsLeftMovesForwardTurnsRight() METHOD
+EditAction 1445593296106 TestPlanetExplorer.java 1877 7 21 7
