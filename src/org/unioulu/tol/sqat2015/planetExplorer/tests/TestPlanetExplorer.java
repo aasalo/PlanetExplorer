@@ -42,4 +42,15 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(1, 0), East", explorer.getLocation());
 	}
+	
+	@Test
+	public void testExplorerMovesForwardOnceAndTurnsLeft() {
+		PlanetExplorer explorer = new PlanetExplorer(3,3, "(1,0)");
+		
+		explorer.executeCommand("fl");
+		
+		assertEquals("(1, 0), West", explorer.getLocation());
+	}
+	
+	
 }
