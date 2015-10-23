@@ -48,6 +48,12 @@ public class PlanetExplorer {
 			else if(command.charAt(i) == 'r' && getFacing().equals("East")){
 				facing = "South";
 			}
+			else if(command.charAt(i) == 'r' && getFacing().equals("South")){
+				facing = "West";
+			}
+			else if(command.charAt(i) == 'r' && getFacing().equals("West")){
+				facing = "North";
+			}
 			else if(command.charAt(i) == 'l' && getFacing().equals("North")){
 				facing = "West";
 			}
