@@ -42,10 +42,10 @@ public class PlanetExplorer {
 			else if (command.charAt(i) == 'f' && getFacing().equals("East")){
 				posX++;
 			}
-			else if(command.charAt(i) == 'r'){
+			else if(command.charAt(i) == 'r' && getFacing().equals("North")){
 				facing = "East";
 			}
-			else if(command.charAt(i) == 'l'){
+			else if(command.charAt(i) == 'l' && getFacing().equals("North")){
 				facing = "West";
 			}
 		}
